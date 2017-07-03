@@ -627,6 +627,7 @@ interface ArrowFunctionExpression <: Function, Expression {
   type: "ArrowFunctionExpression";
   body: BlockStatement | Expression;
   expression: boolean;
+  generator: boolean;
 }
 ```
 

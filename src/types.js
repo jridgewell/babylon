@@ -353,6 +353,8 @@ export type ThisExpression = NodeBase & { type: "ThisExpression" };
 export type ArrowFunctionExpression = FunctionBase & {
   type: "ArrowFunctionExpression",
   body: BlockStatement | Expression,
+  expression: boolean,
+  generator: boolean,
 };
 
 export type YieldExpression = NodeBase & {

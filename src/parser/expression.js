@@ -1410,6 +1410,13 @@ export default class ExpressionParser extends LValParser {
       true,
       "arrow function parameters",
     );
+    if (this.match(tt.star)) {
+      if (!this.hasPlugin("generatorArrow")) {
+        throw this.unexpected();
+      }
+      this.next();
+      node.generator = true;
+    }
     this.parseFunctionBody(node, true);
     return this.finishNode(node, "ArrowFunctionExpression");
   }
