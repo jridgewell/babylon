@@ -1235,7 +1235,6 @@ export default class StatementParser extends ExpressionParser {
     } else if (this.eat(tt._default)) {
       // export default ...
       let expr = this.startNode();
-      let needsSemi = false;
       if (this.eat(tt._function)) {
         expr = this.parseFunction(expr, true, false, false, true);
       } else if (
@@ -1249,11 +1248,10 @@ export default class StatementParser extends ExpressionParser {
       } else if (this.match(tt._class)) {
         expr = this.parseClass(expr, true, true);
       } else {
-        needsSemi = true;
         expr = this.parseMaybeAssign();
+        this.semicolon();
       }
       node.declaration = expr;
-      if (needsSemi) this.semicolon();
       this.checkExport(node, true, true);
       return this.finishNode(node, "ExportDefaultDeclaration");
     } else if (this.shouldParseExportDeclaration()) {
