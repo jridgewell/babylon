@@ -16,8 +16,8 @@ export function runFixtureTests(fixturesPath, parseFunction) {
             runTest(task, parseFunction);
             t.pass();
           } catch (err) {
-            const message =
-              name + "/" + task.actual.filename + ": " + err.message;
+            const message = "test/fixtures/" + name + "/" + task.actual.filename +
+              ": " + err.message;
             t.fail(message);
           }
         });

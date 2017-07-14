@@ -43,7 +43,7 @@
           }
         },
         "declaration": {
-          "type": "FunctionDeclaration",
+          "type": "FunctionExpression",
           "start": 15,
           "end": 29,
           "loc": {

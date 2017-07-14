@@ -780,16 +780,16 @@ export default class StatementParser extends ExpressionParser {
       }
     }
 
-    if (
-      isStatement &&
-      !optionalId &&
-      !this.match(tt.name) &&
-      !this.match(tt._yield)
-    ) {
-      this.unexpected();
+    const hasId = this.match(tt.name) || this.match(tt._yield);
+    if (isStatement && !hasId) {
+      if (optionalId) {
+        isStatement = false;
+      } else {
+        this.unexpected();
+      }
     }
 
-    if (this.match(tt.name) || this.match(tt._yield)) {
+    if (hasId) {
       node.id = this.parseBindingIdentifier();
     }
 
