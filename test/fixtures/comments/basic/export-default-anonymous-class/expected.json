@@ -43,7 +43,7 @@
           }
         },
         "declaration": {
-          "type": "ClassDeclaration",
+          "type": "ClassExpression",
           "start": 51,
           "end": 121,
           "loc": {

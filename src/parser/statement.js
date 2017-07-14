@@ -821,9 +821,11 @@ export default class StatementParser extends ExpressionParser {
     this.parseClassId(node, isStatement, optionalId);
     this.parseClassSuper(node);
     this.parseClassBody(node);
+
+    const isDeclaration = isStatement && (!optionalId || node.id);
     return this.finishNode(
       node,
-      isStatement ? "ClassDeclaration" : "ClassExpression",
+      isDeclaration ? "ClassDeclaration" : "ClassExpression",
     );
   }
 
