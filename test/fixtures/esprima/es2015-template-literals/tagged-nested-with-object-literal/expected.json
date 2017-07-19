@@ -147,10 +147,8 @@
                               "column": 29
                             }
                           },
-                          "value": {
-                            "raw": "deeply",
-                            "cooked": "deeply"
-                          },
+                          "raw": "deeply",
+                          "cooked": "deeply",
                           "tail": true
                         }
                       ]
@@ -189,10 +187,8 @@
                         "column": 20
                       }
                     },
-                    "value": {
-                      "raw": "nested ",
-                      "cooked": "nested "
-                    },
+                    "raw": "nested ",
+                    "cooked": "nested ",
                     "tail": false
                   },
                   {
@@ -209,10 +205,8 @@
                         "column": 41
                       }
                     },
-                    "value": {
-                      "raw": " blah",
-                      "cooked": " blah"
-                    },
+                    "raw": " blah",
+                    "cooked": " blah",
                     "tail": true
                   }
                 ]
@@ -233,10 +227,8 @@
                     "column": 10
                   }
                 },
-                "value": {
-                  "raw": "token ",
-                  "cooked": "token "
-                },
+                "raw": "token ",
+                "cooked": "token ",
                 "tail": false
               },
               {
@@ -253,10 +245,8 @@
                     "column": 43
                   }
                 },
-                "value": {
-                  "raw": "",
-                  "cooked": ""
-                },
+                "raw": "",
+                "cooked": "",
                 "tail": true
               }
             ]

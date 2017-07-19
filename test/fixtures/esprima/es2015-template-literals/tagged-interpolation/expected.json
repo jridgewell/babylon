@@ -121,10 +121,8 @@
                     "column": 10
                   }
                 },
-                "value": {
-                  "raw": "hello ",
-                  "cooked": "hello "
-                },
+                "raw": "hello ",
+                "cooked": "hello ",
                 "tail": false
               },
               {
@@ -141,10 +139,8 @@
                     "column": 17
                   }
                 },
-                "value": {
-                  "raw": "",
-                  "cooked": ""
-                },
+                "raw": "",
+                "cooked": "",
                 "tail": true
               }
             ]

@@ -558,10 +558,8 @@ export type TaggedTmplateExpression = NodeBase & {
 export type TemplateElement = NodeBase & {
   type: "TemplateElement",
   tail: boolean,
-  value: {
-    cooked: string,
-    raw: string,
-  },
+  raw: string,
+  cooked: string | null,
 };
 
 // Patterns

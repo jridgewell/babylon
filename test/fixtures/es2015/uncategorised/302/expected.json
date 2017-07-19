@@ -105,10 +105,8 @@
                       "column": 2
                     }
                   },
-                  "value": {
-                    "raw": "{",
-                    "cooked": "{"
-                  },
+                  "raw": "{",
+                  "cooked": "{",
                   "tail": false
                 },
                 {
@@ -125,10 +123,8 @@
                       "column": 7
                     }
                   },
-                  "value": {
-                    "raw": "}",
-                    "cooked": "}"
-                  },
+                  "raw": "}",
+                  "cooked": "}",
                   "tail": true
                 }
               ]
@@ -163,10 +159,8 @@
                       "column": 12
                     }
                   },
-                  "value": {
-                    "raw": "}",
-                    "cooked": "}"
-                  },
+                  "raw": "}",
+                  "cooked": "}",
                   "tail": true
                 }
               ]

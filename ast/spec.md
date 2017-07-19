@@ -962,10 +962,8 @@ interface TaggedTemplateExpression <: Expression {
 interface TemplateElement <: Node {
   type: "TemplateElement";
   tail: boolean;
-  value: {
-    cooked: string | null;
-    raw: string;
-  };
+  raw: string;
+  cooked: string | null;
 }
 ```
 

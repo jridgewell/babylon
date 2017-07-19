@@ -72,10 +72,8 @@
                   "column": 2
                 }
               },
-              "value": {
-                "raw": "$",
-                "cooked": "$"
-              },
+              "raw": "$",
+              "cooked": "$",
               "tail": true
             }
           ]

@@ -103,10 +103,8 @@
                     "column": 18
                   }
                 },
-                "value": {
-                  "raw": "\\u{\\u{0}",
-                  "cooked": null
-                },
+                "raw": "\\u{\\u{0}",
+                "cooked": null,
                 "tail": true
               }
             ]

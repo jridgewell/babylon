@@ -103,10 +103,8 @@
                     "column": 14
                   }
                 },
-                "value": {
-                  "raw": "\\xAg",
-                  "cooked": null
-                },
+                "raw": "\\xAg",
+                "cooked": null,
                 "tail": true
               }
             ]

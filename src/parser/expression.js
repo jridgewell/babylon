@@ -1030,12 +1030,10 @@ export default class ExpressionParser extends LValParser {
         this.state.invalidTemplateEscapePosition = null;
       }
     }
-    elem.value = {
-      raw: this.input
-        .slice(this.state.start, this.state.end)
-        .replace(/\r\n?/g, "\n"),
-      cooked: this.state.value,
-    };
+    elem.raw = this.input
+      .slice(this.state.start, this.state.end)
+      .replace(/\r\n?/g, "\n");
+    elem.cooked = this.state.value;
     this.next();
     elem.tail = this.match(tt.backQuote);
     return this.finishNode(elem, "TemplateElement");

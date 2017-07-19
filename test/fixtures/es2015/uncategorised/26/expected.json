@@ -285,10 +285,8 @@
                       "column": 33
                     }
                   },
-                  "value": {
-                    "raw": "nested",
-                    "cooked": "nested"
-                  },
+                  "raw": "nested",
+                  "cooked": "nested",
                   "tail": false
                 },
                 {
@@ -305,10 +303,8 @@
                       "column": 64
                     }
                   },
-                  "value": {
-                    "raw": "endnest",
-                    "cooked": "endnest"
-                  },
+                  "raw": "endnest",
+                  "cooked": "endnest",
                   "tail": true
                 }
               ]
@@ -329,10 +325,8 @@
                   "column": 6
                 }
               },
-              "value": {
-                "raw": "outer",
-                "cooked": "outer"
-              },
+              "raw": "outer",
+              "cooked": "outer",
               "tail": false
             },
             {
@@ -349,10 +343,8 @@
                   "column": 24
                 }
               },
-              "value": {
-                "raw": "bar",
-                "cooked": "bar"
-              },
+              "raw": "bar",
+              "cooked": "bar",
               "tail": false
             },
             {
@@ -369,10 +361,8 @@
                   "column": 69
                 }
               },
-              "value": {
-                "raw": "end",
-                "cooked": "end"
-              },
+              "raw": "end",
+              "cooked": "end",
               "tail": true
             }
           ]

@@ -1564,10 +1564,8 @@
                               "column": 31
                             }
                           },
-                          "value": {
-                            "raw": "Point<",
-                            "cooked": "Point<"
-                          },
+                          "raw": "Point<",
+                          "cooked": "Point<",
                           "tail": false
                         },
                         {
@@ -1584,10 +1582,8 @@
                               "column": 39
                             }
                           },
-                          "value": {
-                            "raw": ",",
-                            "cooked": ","
-                          },
+                          "raw": ",",
+                          "cooked": ",",
                           "tail": false
                         },
                         {
@@ -1604,10 +1600,8 @@
                               "column": 47
                             }
                           },
-                          "value": {
-                            "raw": ">",
-                            "cooked": ">"
-                          },
+                          "raw": ">",
+                          "cooked": ">",
                           "tail": true
                         }
                       ]

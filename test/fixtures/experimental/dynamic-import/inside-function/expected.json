@@ -188,10 +188,8 @@
                             "column": 22
                           }
                         },
-                        "value": {
-                          "raw": "test/",
-                          "cooked": "test/"
-                        },
+                        "raw": "test/",
+                        "cooked": "test/",
                         "tail": false
                       },
                       {
@@ -208,10 +206,8 @@
                             "column": 32
                           }
                         },
-                        "value": {
-                          "raw": ".js",
-                          "cooked": ".js"
-                        },
+                        "raw": ".js",
+                        "cooked": ".js",
                         "tail": true
                       }
                     ]
